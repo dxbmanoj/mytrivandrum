@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website for Sale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        p {
+            font-size: 18px;
+            color: #34495e;
+        }
+        a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1>This Domain is for Sale</h1>
+    <p>If you're interested in purchasing this domain, please contact:</p>
+    <p>Email: <a href="mailto:dxbmanoj@gmail.com">youremail@example.com</a></p>
+</body>
+</html>

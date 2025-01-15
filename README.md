@@ -1,2 +1,0 @@
-# mytrivandrum
-For Sale

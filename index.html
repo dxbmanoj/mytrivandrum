@@ -35,44 +35,51 @@
             font-size: 1.2em;
             margin: 10px 0;
         }
+        .contact {
+            font-size: 1.2em;
+            margin-top: 20px;
+            font-weight: bold;
+        }
         .contact h2 {
             font-size: 1.2em;
             margin-bottom: 15px;
         }
-        .visitor-counter {
-            position: fixed;
-            bottom: 10px;
+        input, button {
+            font-size: 10.2em;
+            padding: 10px;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
             width: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            color: white;
-            padding: 10px 0;
-            font-size: 1.2em;
+            max-width: 300px;
         }
-        a {
-            color: yellow;
+        button {
+            background-color: #ff758c;
+            color: #fff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #42a5f5;
+        }
+        img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 15px;
+            margin-bottom: 20px;
         }
     </style>
-    <script>
-        async function getVisitorCount() {
-            let response = await fetch('counter.php');
-            let count = await response.text();
-            document.getElementById('visitor-count').innerText = count;
-        }
-        window.onload = getVisitorCount;
-    </script>
 </head>
 <body>
     <div class="container">
         <h1> Want these super domains FREE? </h1>
-        <h1>www.mytrivandrum.com</h1>
-        <h1>www.mytrivandrum.in</h1>
-        <h2>Contact</h2>
-        <p>📧 Email: <a href="mailto:mummydomains@gmail.com">mummydomains@gmail.com</a></p>
-        <p>📱 WhatsApp: <a href="https://wa.me/918301951835" target="_blank">+91 83019 51835</a></p>
-        <h1>www.mummydomains.com</h1>
-    </div>
-    <div class="visitor-counter">
-        Site Visits: <span id="visitor-count">Loading...</span>
+	<br>
+	<h1>www.mytrivandrum.com </h1>
+	<h1>www.mytrivandrum.in </h1>
+	                  <h2> contact </h2>
+ 	<p>📧 Email: <a href="mailto:info@example.com">mummydomains@gmail.com</a></p>
+        <p>📱 WhatsApp: <a href="https://wa.me/" target="_blank">+91 83019 51835</a></p>
+	<h1> www.mummydomains.com
+        </div>
     </div>
 </body>
 </html>
